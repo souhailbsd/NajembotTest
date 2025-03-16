@@ -1,0 +1,33 @@
+version: "3.1"
+stories:
+  - story: greet and ask about AI
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: what_is_ai
+      - action: utter_what_is_ai
+
+  - story: ask about applications of AI
+    steps:
+      - intent: applications_of_ai
+      - action: utter_applications_of_ai
+
+  - story: ask about types of AI
+    steps:
+      - intent: types_of_ai
+      - action: utter_types_of_ai
+
+  - story: ask who invented AI
+    steps:
+      - intent: who_invented_ai
+      - action: utter_who_invented_ai
+
+  - story: say goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: bot introduction
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot

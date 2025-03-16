@@ -1,0 +1,37 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey
+      - good morning
+      - good evening
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you later
+      - good night
+  - intent: applications_of_ai
+    examples: |
+      - What are the applications of AI?
+      - Where is AI used?
+  - intent: types_of_ai
+    examples: |
+      - What are the types of AI?
+      - How is AI classified?
+  - intent: who_invented_ai
+    examples: |
+      - Who invented AI?
+      - Who is the father of AI?
+  - intent: bot_challenge
+    examples: |
+      - Are you a bot?
+      - Are you a human?
+      - Am I talking to a bot?
+  - intent: what_is_ai
+    examples: |
+      - What is AI?
+      - Define AI
+      - Tell me about AI

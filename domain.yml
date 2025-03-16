@@ -1,0 +1,29 @@
+version: "3.1"
+intents:
+  - bot_challenge
+  - greet
+  - goodbye
+  - what_is_ai
+  - types_of_ai
+  - applications_of_ai
+  - who_invented_ai
+
+responses:
+  utter_iamabot:
+    - text: "I am a bot designed to help you with information about AI."
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_what_is_ai:
+    - text: "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans."
+  utter_types_of_ai:
+    - text: "AI can be classified into three types: Narrow AI (designed for specific tasks), General AI (can perform any intellectual task a human can), and Superintelligent AI (exceeds human intelligence)."
+  utter_applications_of_ai:
+    - text: "AI is used in various fields such as healthcare (diagnosis), finance (fraud detection), transportation (self-driving cars), and entertainment (recommendation systems)."
+  utter_who_invented_ai:
+    - text: "The term 'Artificial Intelligence' was coined by John McCarthy in 1956. He is often referred to as the father of AI."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
